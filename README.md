@@ -15,7 +15,6 @@ Arreglado:
 - Sustituido el atributo **Recurso - Intervencion** por atributos *Recurso_Adecuado* y *Recurso_Aplicado*
 - **Fecha_Nacimiento - Usuario** ahora es *Temporal.DATE*
 - **Sexo - Usuario** ahora es *Enum*
-
 - Cardinalidad de las relaciones entre entidades
 - Navegacion de relaciones
 
@@ -24,4 +23,4 @@ Agregado:
 - Anotaciones *@Entity*
 - Todas las relaciones *OneToOne* y *ManyToOne* junto sus *JoinColumn*
 - Todos lo *equals* y *hashcodes* de las entidades
-- Generacion del esquema de la base de datos (**Base de datos:** *SSBD* , **user:** *sa* , **pass:** *sa*
+- Generacion del esquema de la base de datos (**Base de datos:** *SSBD* , **user:** *sa* , **pass:** *sa*)

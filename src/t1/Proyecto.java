@@ -35,16 +35,6 @@ public class Proyecto {
         u.setSexo(Usuario.SexoEnum.Mujer);
         u.setFecha_Nacimiento(null);
         u.setTutor(null);
-        
-        
-        Profesional u = new Profesional();
-        u.setTelefono("651 676 542");
-        u.setCargo("Atencion Citas");
-        u.setCorreo_Profes("michaelpro@x.org");
-        u.setDespacho("B021");
-        u.setUsuario(null);
-        
-        
 
         Proyecto proyecto = new Proyecto();
         proyecto.persist(u);

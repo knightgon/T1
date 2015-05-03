@@ -40,7 +40,10 @@ public class Usuario implements Serializable {
     private String Apellido2;
     
     @Column (name = "NIF", nullable = false, length = 9)
-    private String NIF;   
+    private String NIF;
+    
+    @Column (name = "Clave", nullable = false, length = 10)
+    private String Clave;
     
     @Temporal(javax.persistence.TemporalType.DATE)
     private Date Fecha_Nacimiento;
@@ -72,6 +75,13 @@ public class Usuario implements Serializable {
         this.id = id;
     }
 
+    public String getClave() {
+        return Clave;
+    }
+
+    public void setClave(String Clave) {
+        this.Clave = Clave;
+    }
 
     public SexoEnum getSexo() {
         return Sexo;

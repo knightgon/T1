@@ -19,7 +19,7 @@ Arreglado:
 - Navegacion de relaciones
 
 Agregado:
-
+- **Clave - Usuario** tipo String
 - Anotaciones *@Entity*
 - Todas las relaciones *OneToOne* y *ManyToOne* junto sus *JoinColumn*
 - Todos lo *equals* y *hashcodes* de las entidades
